@@ -1,0 +1,126 @@
+tool_name_galaxy,true tool name,in progress,PMID,description,template,www
+bam_to_sam,BAM-to-SAM,,19505943,   .. This tool uses the SAMTools_ toolkit to produce a SAM file from a BAM file.,%name ,http://samtools.sourceforge.net/samtools.shtml
+bed_to_bigBed,BED-to-bigBed,,????,This tool converts a sorted BED file into a bigBed file.
+bed2gff1,BED-to-GFF,,????
+biomart,BioMart,pobieranie danych,,,,http://www.biomart.org/
+biomart_test,BioMart,pomocniczny do  Biomart
+clustalw,ClustalW,,17846036,This tool allows you to run a multiple sequence alignment with ClustalW2 (see Clustsrc) using the default options.,{Then|Afterwards} we have used ClustalW %version% to {obtain|compute} {MSA|multiple sequence alignment} using %options% options.,http://www.clustal.org/
+cor2,Correlation,,galaxy,This tool computes the matrix of correlation coefficients between numeric columns.,Correlation was {computed|counted} between them using Correlation Galaxy tool.
+Count1,Count,,galaxy,This tool counts occurrences of unique values in selected column(s)., {Next|Then|Afterwards} we counted occurances of them using Count Galaxy tool.
+cshl_fastx_clipper,Clip,,,This tool clips adapters from the 3'-end of the sequences in a FASTA/FASTQ file.,Provided  adapter sequences were cut off using Clip tool from the library sequences.,http://hannonlab.cshl.edu/fastx_toolkit/
+cshl_fastx_collapser,Collapse,,,This tool collapses identical sequences in a FASTA file into a single sequence.,Identical sequences were joined into one with Collapse tool.,http://hannonlab.cshl.edu/fastx_toolkit/
+cshl_fastx_renamer,version=,ania,,,,http://hannonlab.cshl.edu/fastx_toolkit/
+cshl_fastx_reverse_complement,Reverse-Complement,ania,,,,http://hannonlab.cshl.edu/fastx_toolkit/
+cuffcompare,Cuffcompare
+cuffdiff,Cuffdiff
+cufflinks,Cufflinks
+Cut1,Cut
+Draw_phylogram
+encode_db1,EncodeDB
+epigraph,EpiGRAPH,kasia,16520826,"This tool sends the selected dataset to EpiGRAPH in order to perform an in-depth analysis with statistical and machine learning methods. The EpiGRAPH_ web service enables biologists to uncover hidden associations in vertebrate genome and epigenome datasets. Users can upload or import sets of genomic regions and EpiGRAPH will test a wide range of attributes (including DNA sequence and structure, gene density, chromatin modifications and evolutionary conservation) for enrichment or depletion among these regions. Furthermore, EpiGRAPH learns to predictively identify genomic regions that exhibit similar properties.
+",,http://epigraph.mpi-inf.mpg.de/
+epigraph_import,EpiGRAPH,kasia,16520826,"This tool sends the selected dataset to EpiGRAPH in order to perform an in-depth analysis with statistical and machine learning methods. The EpiGRAPH_ web service enables biologists to uncover hidden associations in vertebrate genome and epigenome datasets. Users can upload or import sets of genomic regions and EpiGRAPH will test a wide range of attributes (including DNA sequence and structure, gene density, chromatin modifications and evolutionary conservation) for enrichment or depletion among these regions. Furthermore, EpiGRAPH learns to predictively identify genomic regions that exhibit similar properties.
+",,http://epigraph.mpi-inf.mpg.de/
+epigraph_import_test,EpiGRAPH,kasia,16520826,"This tool sends the selected dataset to EpiGRAPH in order to perform an in-depth analysis with statistical and machine learning methods. The EpiGRAPH_ web service enables biologists to uncover hidden associations in vertebrate genome and epigenome datasets. Users can upload or import sets of genomic regions and EpiGRAPH will test a wide range of attributes (including DNA sequence and structure, gene density, chromatin modifications and evolutionary conservation) for enrichment or depletion among these regions. Furthermore, EpiGRAPH learns to predictively identify genomic regions that exhibit similar properties.
+",,http://epigraph.mpi-inf.mpg.de/
+eupathdb,EuPathDB
+fasta_compute_length
+fasta_concatenate0,Concatenate
+fasta2tab
+fasta2tab,FASTA-to-Tabular
+Fetch
+Filter1
+Filter1,Filter
+flymine,Flymine
+gd_extract_flanking_dna,Extract
+gd_select_restriction_enzymes,Specify
+gd_select_snps,Select
+gff2bed1,GFF-to-BED
+gmaj_1,GMAJ
+gops_cluster_1,Cluster
+gops_complement_1,Complement
+gops_concat_1,Concatenate
+gops_coverage_1,Coverage
+gops_intersect_1,Intersect
+gops_join_1,Join
+gops_merge_1,Merge
+gops_subtract_1,Subtract
+gramenemart,GrameneMart
+Grep1,Select
+Grouping1,Group
+gtf2bedgraph,GTF-to-BEDGraph
+hbvar,HbVar
+hgv_add_scores,phyloP
+hgv_beam,BEAM
+hgv_codingSnps,aaChanges
+hgv_ctdBatch,CTD
+hgv_funDo,FunDO
+hgv_gpass,GPASS
+hgv_hilbertvis,HVIS
+hgv_ldtools,LD
+hgv_linkToGProfile,g:Profiler
+hgv_lps,LPS
+hgv_pass,PASS
+hgv_sift,SIFT
+hgv_snpFreq,snpFreq
+histogram_rpy,Histogram
+join1
+laj_1,LAJ
+lastz_wrapper_2,Lastz
+lca1
+megablast_wrapper
+megablast_wrapper,Megablast,,,,{Then|Afterwards} we have used Megablast %version%.
+meme_fimo,FIMO
+meme_meme,MEME
+metabolicmine,metabolicMine
+ngs_simulation,Simulate
+Paste1,Paste
+peakcalling_ccat,CCAT
+peakcalling_macs,MACS
+peakcalling_sicer,SICER
+pileup_interval,Pileup-to-Interval
+quake,Quake
+qual_stats_boxplot,Boxplot
+random_intervals1,,marta,17568012,This tool will attempt to create a random set of intervals that mimic those found within your source file. You may also specify a set of intervals to mask.
+ratmine,Ratmine,marta,,"RatMine integrates data from RGD, UniProtKB, NCBI, KEGG and other sources to form a web-based data warehouse and tool set tailored for rat based data research. Search RatMine by entering names, identifiers, or keywords for genes, proteins, pathways, papers, etc. Additionally, we support programmatic access to our data through Application Programming Interface - choose from Perl or Java API. ",,http://ratmine.mcw.edu/ratmine/begin.do
+rgEigPCA1,Eigensoft:,marta,,The EigenSoft Software uses Principal Components Analysis to correct for population stratification in medical association studies and to detect and analyze population structure for population genetics.,,http://genepath.med.harvard.edu/~reich/Reich_Laboratory_Software.htm
+rgGRR1,GRR:
+rgManQQ1,Manhattan/QQ:
+sam_to_bam,SAM-to-BAM
+samtools_flagstat,flagstat
+scatterplot_rpy,Scatterplot
+soap_denovo,SOAPdenovo
+sort1,Sort
+t2t_report
+tab2fasta
+tab2fasta,Tabular-to-FASTA
+trim_reads
+trimmer,Trim
+trinity_all,Trinity
+vcf_annotate,Annotate,kasia,???,"This tool uses vcfPytools' annotate command annotate a VCF file
+
+Currently, either a hapmap or a dbsnp file should be provided, not both."
+vcf_extract,Extract,kasia,???,This tool uses vcfPytools' extract command to extract reads from a specified region of a VCF file.
+vcf_filter,Filter,kasia,,"This tool uses vcfPytools' filter command
+
+Quality option will check the variant quality for each record and if it is below the defined value, the filter field will be populated with the filter entry Q[value].
+
+Any value in the info string can be used for filtering by using the 'Filter by info' option. This option takes three values: the info string tag, the cutoff value and whether to filter out those records with less than (lt) or greater than (gt) this value. For example:
+
+    DP 10 lt
+
+would filter out all varianta with a depth (DP) less than 10 and the filter field would be populated with DP10.
+
+This option can be defined as many times as required.",,https://github.com/AlistairNWard/vcfPytools
+vcf_intersect,Intersect,kasia,???,"This tool uses vcfPytools' intersect command to generate the intersection of two VCF files
+
+Two input files are required as input and the intersection of these two files is generated and sent to the output. These files must be sorted by genomic coordinate to function correctly, although the reference sequence order is no important.
+
+The intersection can be calculated on two VCF files or a VCF and a BED file.
+
+If the priority file argument is set (this must be equal to one of the input VCF files), then the record written to the output will come from this file. If this argument is not set, the record with the highest quality is written out.",,https://github.com/AlistairNWard/vcfPytools
+wig_to_bigWig,Wig-to-bigWig,,,This tool converts wiggle data into bigWig type
+wiggle2simple1,Wiggle-to-Interval,kasia,,This tool converts wiggle data into interval type.
+wormbase,Wormbase,kasia,22067452
+wormbase_test,Wormbase,kasia,22067452
+yeastmine,YeastMine
